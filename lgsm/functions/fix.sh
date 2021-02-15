@@ -110,6 +110,8 @@ if [ "${commandname}" == "INSTALL" ]; then
 				fix_ro.sh
 			elif [ "${shortname}" == "samp" ]; then
 				fix_samp.sh
+                        elif [ "${shortname}" == "skrt" ]; then
+                                fix_skrt.sh
 			elif [ "${shortname}" == "ut2k4" ]; then
 				fix_ut2k4.sh
 			elif [ "${shortname}" == "ut" ]; then
